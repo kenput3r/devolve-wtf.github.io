@@ -1,0 +1,313 @@
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+	height: 100%;
+}
+
+body {
+	background-image: url('../images/concrete-texture.png');
+	background-attachment: fixed;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 1.6rem;
+	margin: 0;
+	min-height: 100%;
+	padding-bottom: 82px;
+	position: relative;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.box {
+	background-color: #fff;
+	border: 2px solid #dddddd;
+	padding: 2rem;
+}
+
+#ContactForm .button {
+	background-color: #4aaaa5;
+	border: 0;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: bold;
+	margin-top: 1rem;
+	width: auto !important;
+	padding: 1rem 2rem;
+}
+
+#ContactForm .button:hover {
+	background-color: rgba(74, 170, 165, 0.77);
+}
+
+#ContactForm label {
+	display: block;
+	margin-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+#ContactForm input {
+	border: 1px solid #dddddd;
+	display: block;
+	margin-bottom: 1rem;
+	line-height: 2rem;
+	padding: 0.5rem;
+	width: 100%;
+}
+
+#ContactForm textarea {
+	border: 1px solid #dddddd;
+	width: 100%;
+}
+
+.display-none {
+	opacity: 0;
+	visibility: hidden;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+footer {
+	background-color: #666666;
+	border-top: 6px solid #4aaaa5;
+	color: #cccccc;
+	padding: 3rem 0;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.grid {
+	position: relative;
+	width: 100%;
+}
+
+.grid__item {
+	display: inline-block;
+	line-height: 0;
+	margin-bottom: 2rem;
+	padding-left: 1rem;
+	position: relative;
+	width: 49.6%;
+}
+
+.grid__item:nth-of-type(1), .grid__item:nth-of-type(3), .grid__item:nth-of-type(5) {
+	padding-left: 0;
+	padding-right: 1rem;
+}
+
+.grid__item h4 {
+	background-color: #4aaaa5;
+	border-right: 1rem solid #ffffff;
+	color: #ffffff;
+	font-size: 2rem;
+	font-weight: normal;
+	line-height: 3rem;
+	margin-top: -6rem;
+	padding: 1rem;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	z-index: 2;
+}
+
+.grid__item h4:hover {
+	background-color: #7fd2cd;
+}
+
+.grid__item h4 a {
+	color: #ffffff;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+
+.grid__item img {
+	max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 2em;
+	padding: 1rem;
+}
+
+h2 {
+	font-size: 1.7em;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+header {
+	background-color: #fff;
+	border-bottom: 2px solid #cccccc;
+	margin-bottom: 2rem;
+}
+
+header .wrapper {
+	padding: 0 1rem;
+}
+
+hr {
+	border-top: 2px solid #dddddd;
+	height: 1px;
+	margin: 2rem 0;
+}
+
+
+main {
+	box-sizing: border-box;
+	display: table;
+}
+
+main section {
+	box-sizing: border-box;
+	display: table-cell;
+	vertical-align: top;
+	width: 50%;
+}
+
+#Modal {
+	background-color: rgba(0,0,0,0.77);
+	width: 1024px;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	opacity: 1;
+	transition: opacity 500ms;
+	z-index: 4;
+}
+
+#Modal.display-none {
+	opacity: 0;
+}
+
+#Modal .button {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 3rem;
+	padding: 2rem;
+	position: absolute;
+	right: 0;
+}
+
+#Modal h5 {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 3rem;
+	margin-top: -4rem;
+	padding: 2rem;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+#Modal img {
+	border: 2rem solid #4aaaa5;
+	width: 100%;
+}
+
+nav {
+	display: inline-block;
+	height: 100%;
+	position: absolute;
+	right: 0;
+}
+
+nav ul {
+	display: table;
+	height: 100%;
+}
+
+nav li {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+nav li a {
+	color: #777777;
+	font-weight: bold;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	color: #4aaaa5;
+}
+
+p {
+	line-height: 2rem;
+	margin-bottom: 1rem;
+}
+
+#PageContent {
+	padding: 1rem;
+	padding-right: 2rem;
+	max-width: 100%;
+	width: 650px;
+}
+
+#ProfilePic {
+	float: left;
+	padding: 0 1rem 1rem 0;
+	width: 200px;
+}
+
+#ProjectLink {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#ProjectLink:hover {
+	text-decoration: underline;
+}
+
+#Sidebar {
+	padding: 1rem;
+	max-width: 100%;
+	width: 270px;
+}
+
+#Sidebar .blocks {
+	text-align: center;
+}
+
+#Sidebar hr {
+	border-top: 1px solid #dddddd;
+	margin: 1.5rem 0;
+}
+
+#Sidebar img {
+	width: 69px;
+}
+
+.thumbnail {
+	cursor: pointer;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.wrapper {
+	position: relative;
+	margin: 0 auto;
+	max-width: 100%;
+	width: 960px;
+}

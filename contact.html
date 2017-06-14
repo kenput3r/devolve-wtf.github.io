@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact | kenput3r's portfolio</title>
+
+	<link rel="shortcut icon" type="image/png" href="assets/images/favicon-k.png"/>
+	<link rel="shortcut icon" type="image/png" href="assets/images/favicon-k.png"/>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<h1>kenput3r</h1>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">About</a> |</li>
+					<li><a href="portfolio.html">Portfolio</a> |</li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main class="wrapper">
+		<section id="PageContent">
+			<div class="box">
+				<h2>Contact</h2>
+
+				<hr>
+
+				<form id="ContactForm" onsubmit="notifyContact()">
+					<label>Name</label>
+					<input id="ContactName" type="text" placeholder="John Smith">
+
+					<label>Email</label>
+					<input id="ContactEmail" type="email" placeholder="example@gmail.com">
+
+					<label>Message</label>
+					
+					<textarea id="ContactMessage" name="message" rows="10" form="ContactForm"></textarea>
+
+					<input class="button" type="submit" value="Submit" >
+				</form>
+				
+			</div>
+
+		</section>
+
+		<section id="Sidebar">
+			<div class="box">
+				<h3>Connect with kenput3r</h3>
+
+				<hr>
+
+				<div class="blocks">
+					<a href="https://github.com/devolve-wtf" target="_blank"><img src="assets/images/github.png"></a>
+					<a href="https://www.linkedin.com/in/kenneth-lyerly-931a9383/" target="_blank"><img src="assets/images/linkedin.png"></a>
+					<a href="https://stackoverflow.com/users/8074949/kenput3r" target="_blank"><img src="assets/images/stackoverflow.png"></a>
+				</div>
+			</div>
+
+		</section>
+
+	</main>
+
+	<footer>
+		<div class="text-center">&copy; <span id="Year"></span> kenput3r</div>
+	</footer>
+	
+	<script type="text/javascript" src="assets/js/functions.js"></script>
+</body>
+</html>
